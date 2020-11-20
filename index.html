@@ -20,12 +20,12 @@
 			<div class="title">Formulário</br>para compra de</br><span>Pacote de Stickers</span></div>
 		</div>
 		<div class="space"></div>
-		<div class="form">
+		<form method="POST" action="mailto:contatomarilop@gmail.com">
 			<div class="space"></div>
 			<div class="fieldset">
 				<div class="label">Quais stickers:</div>
 				<div class="space"></div>
-				<div><input class="quadrado" type="checkbox"> React</div>
+				<div><input type="checkbox"> React</div>
 				<div><input type="checkbox"> Vue</div>
 				<div><input type="checkbox"> Angular</div>
 			</div>
@@ -44,13 +44,13 @@
 			<div class="fieldset">
 				<div class="label">Observações:</div>
 				<div class="space"></div>
-				<textarea name="descricao" placeholder="Alguma dúvida? Recado?"></textarea>
+				<textarea name="descricao" placeholder="Alguma dúvida? Recado?" required></textarea>
 			</div>
 			<div class="space-md"></div>
 			<div class="footer">
-				<button>Enviar</button>
+				<button type="submit">Enviar</button>
 			</div>
-		</div>
+		</form>
 	</div>
 
 	<script src="index.js"></script>
